@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sort and Shuffle</title>
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 title-bg-color">
+                <b class="title-color">Shuffle and Sort</b>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            </div>
+        </div>
+        <input type="hidden" id="shuffledarr" name="shuffledarr1" value=""/>
+        <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                <div class="wrapper">
+                    <div class="design cell-one">
+                        <span class="text-color text-font-fam number-size"><p class="center" id="item-1">1</p></span>
+                    </div>
+                    <div class="design cell-two">
+                        <span class="text-color text-font-fam number-size"><p class="center" id="item-2">2</p></span>
+                    </div>
+                    <div class="design cell-three">
+                        <span class="text-color text-font-fam number-size"><p class="center" id="item-3">3</p></span>
+                    </div>
+                    <div class="design cell-four">
+                        <span class="text-color text-font-fam number-size"><p class="center" id="item-4">4</p></span>
+                    </div>
+                    <div class="design cell-five">
+                        <span class="text-color text-font-fam number-size"><p class="center" id="item-5">5</p></span>
+                    </div>
+                    <div class="design cell-six">
+                        <span class="text-color text-font-fam number-size"><p class="center" id="item-6">6</p></span>
+                    </div>
+                    <div class="design cell-seven">
+                        <span class="text-color text-font-fam number-size"><p class="center" id="item-7">7</p></span>
+                    </div>
+                    <div class="design cell-eight">
+                        <span class="text-color text-font-fam number-size"><p class="center" id="item-8">8</p></span>
+                    </div>
+                    <div class="design cell-nine">
+                        <span class="text-color text-font-fam number-size"><p class="center" id="item-9">9</p></span>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <aside class="bg-color">
+                <button type="button" class="btn-design" onclick="shuffle()">
+                    <span class="text-color-btn">
+                        <p class="center">SHUFFLE</p>
+                    </span>
+                </button>
+                <br>
+                <button type="button" class="btn-design" onclick="sort()">
+                    <span class="text-color-btn">
+                        <p class="center">SORT</p>
+                    </span>
+                </button>
+            </aside> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <footer class="bg-color">
+                    <p class="center">Shuffle and Sort by <a href="https://chetana-51165.web.app/" target="_blank">Chetana Lotliker</a></p>
+                </footer>
+                   
+            </div>
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
